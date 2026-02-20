@@ -85,10 +85,10 @@ bridge-perl-pandas/
     # Exemplo: macOS          # Exemplo:Linux (Ubuntu/Debian)
     → brew install pyenv      → curl https://pyenv.run | bash
 
-    # Instale a versão
+    # Instale a versão do Python
     → pyenv install 3.12.2
     
-    # Defina a versão do Python local
+    # Defina a versão do Python local (pasta do projeto)
     → pyenv local 3.12.2
     
     # Crie o ambiente virtual
@@ -103,8 +103,8 @@ bridge-perl-pandas/
 2. **Executando o pipeline**
     ```bash
     # Rode o pipeline
-        → python src/bridge/pipeline.py
+    → python src/bridge/pipeline.py
 
     # Rode os testes unitários
-        → pytest tests/
+    → pytest tests/
     ```
